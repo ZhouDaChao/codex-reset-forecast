@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "collection": {
+    "status": "ok",
+    "checkedAt": "2026-10-24T08:31:23Z",
+    "reviewedSurfaces": ["Posts", "Replies"],
+    "latestReviewedPostIds": ["2113838156193894447", "2113771215433392478"],
+    "result": "Successful current-source review; no new reset evidence. This does not establish complete historical observation coverage."
+  },
+  "coverage": [],
+  "candidateResearch": {
+    "unverifiedCandidatesReported": 20,
+    "lookbackDaysReported": 90,
+    "usedAsVerifiedSamples": false,
+    "sources": [
+      "https://nextreset.ai/forecast/",
+      "https://nextreset.ai/data/backtest.json",
+      "https://codex-reset.com/forecast-method",
+      "https://codex-reset.com/api/timeline"
+    ],
+    "limitations": "Selected timelines are not complete observation coverage. confirmed may mean pending, announcement-time or operator-observed. No candidate is admitted as a verified occurrence."
+  },
+  "events": [
+    {
+      "eventId": "day18-unresolved-promise",
+      "kind": "unknown",
+      "scope": "unknown",
+      "state": "unresolved_past_promise",
+      "knownAt": "2026-10-24T07:48:07Z",
+      "occurredAt": null,
+      "windowStart": null,
+      "windowEnd": null,
+      "expiresAt": null,
+      "official": true,
+      "sourceVerified": false,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": true
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2113492187770175603",
+        "https://x.com/thsottiaux/status/2113492502355562875"
+      ],
+      "note": "Target window has passed; fulfillment and exact event type have not been independently verified. Unknown clock bounds are not invented."
+    },
+    {
+      "eventId": "day19-feature-release",
+      "kind": "non_reset",
+      "scope": "public_codex_extra",
+      "state": "feature_release",
+      "knownAt": "2026-10-24T07:48:07Z",
+      "occurredAt": null,
+      "official": true,
+      "sourceVerified": false,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "versionRelease": true
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2113770573994299544",
+        "https://x.com/thsottiaux/status/2113770862860222611"
+      ],
+      "note": "Feature/CLI updates and usage doubled are not classified as extra quota resets."
+    },
+    {
+      "eventId": "public-post-2113838156193894447",
+      "kind": "non_reset",
+      "scope": "unknown",
+      "state": "non_reset",
+      "knownAt": "2026-10-24T07:48:07Z",
+      "occurredAt": null,
+      "official": true,
+      "sourceVerified": false,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2113838156193894447"
+      ],
+      "note": "No new reset event admitted by the latest source review."
+    },
+    {
+      "eventId": "public-post-2113771215433392478",
+      "kind": "non_reset",
+      "scope": "unknown",
+      "state": "non_reset",
+      "knownAt": "2026-10-24T07:48:07Z",
+      "occurredAt": null,
+      "official": true,
+      "sourceVerified": false,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2113771215433392478"
+      ],
+      "note": "Fun game post is not a reset occurrence."
+    },
+    {
+      "eventId": "source-audit-2112432076767289678",
+      "kind": "unknown",
+      "scope": "unknown",
+      "state": "execution_reported",
+      "knownAt": "2026-10-24T08:15:17Z",
+      "publishedAt": "2026-10-20T06:33:48Z",
+      "sourceCheckedAt": "2026-10-24T08:09:00Z",
+      "sourceCheckedAtPrecision": "minute",
+      "occurredAt": null,
+      "windowStart": null,
+      "windowEnd": null,
+      "expiresAt": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": false,
+        "executionClaim": true
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2112432076767289678"
+      ],
+      "verifiedSourceWording": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
+      "unsupportedAggregatorOccurrenceTime": null,
+      "note": "Wording reports a reset, but product/account scope and actual execution time are unknown."
+    },
+    {
+      "eventId": "source-audit-2111492738025959922",
+      "kind": "unknown",
+      "scope": "unknown",
+      "state": "unresolved_past_promise",
+      "knownAt": "2026-10-24T08:15:17Z",
+      "publishedAt": "2026-10-17T16:21:13Z",
+      "sourceCheckedAt": "2026-10-24T08:09:00Z",
+      "sourceCheckedAtPrecision": "minute",
+      "occurredAt": null,
+      "windowStart": null,
+      "windowEnd": null,
+      "expiresAt": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": true,
+        "executionClaim": false
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2111492738025959922"
+      ],
+      "verifiedSourceWording": "Landing sometime today by EOD PST",
+      "unsupportedAggregatorOccurrenceTime": "2026-10-17T20:41:01Z",
+      "note": "This source is a promise. An aggregator claim of Done. and 20:41:01Z is not supported by this URL; that mismatch does not prove no event happened."
+    },
+    {
+      "eventId": "source-audit-2110595554036400151",
+      "kind": "unknown",
+      "scope": "unknown",
+      "state": "unresolved_past_promise",
+      "knownAt": "2026-10-24T08:15:17Z",
+      "publishedAt": "2026-10-15T04:56:07Z",
+      "sourceCheckedAt": "2026-10-24T08:09:00Z",
+      "sourceCheckedAtPrecision": "minute",
+      "occurredAt": null,
+      "windowStart": null,
+      "windowEnd": null,
+      "expiresAt": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": true,
+        "executionClaim": false
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2110595554036400151"
+      ],
+      "verifiedSourceWording": "Landing within the next 2 hours",
+      "unsupportedAggregatorOccurrenceTime": "2026-10-15T06:13:01Z",
+      "note": "This source is a promise. An aggregator claim of Done and dusted. and 06:13:01Z is not supported by this URL; that mismatch does not prove no event happened."
+    }
+  ]
+}
