@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "horizonHours": 24,
+  "ttlHours": 3,
+  "priors": {
+    "direct": {"alpha0": 1, "betaDays0": 9},
+    "banked": {"alpha0": 1, "betaDays0": 9}
+  },
+  "sensitivityBetaDays": [19, 9, 4],
+  "featureLikelihoodRatios": {
+    "tiboStatement": 1.0,
+    "explicitCommitment": 4.0,
+    "versionRelease": 1.0,
+    "incidentCompensation": 1.0,
+    "executionClaim": 1.0
+  },
+  "evidenceAggregation": "maximum_single_event",
+  "evidenceSensitivityRatios": [2, 4, 8]
+}
