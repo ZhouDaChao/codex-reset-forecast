@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "status": "prediction",
-  "windowStart": "2026-10-24T17:49:38Z",
-  "windowEnd": "2026-10-25T17:49:38Z",
+  "windowStart": "2026-10-24T20:20:03Z",
+  "windowEnd": "2026-10-25T20:20:03Z",
   "resetType": "direct",
   "subjectiveProbability": 0.09999999999999999,
   "sources": [
     "https://github.com/ZhouDaChao/codex-reset-forecast/blob/main/MODEL.md"
   ],
-  "updatedAt": "2026-10-24T17:49:38Z",
-  "expiresAt": "2026-10-24T20:49:38Z",
+  "updatedAt": "2026-10-24T20:20:03Z",
+  "expiresAt": "2026-10-24T23:20:03Z",
   "eventId": "experimental-direct-24h",
   "model": {
     "schemaVersion": 1,
@@ -149,6 +149,46 @@
       },
       {
         "eventId": "public-post-2114030784625647855",
+        "kind": "non_reset",
+        "state": "non_reset",
+        "features": {
+          "tiboStatement": true,
+          "explicitCommitment": false
+        },
+        "likelihoodRatio": 1.0
+      },
+      {
+        "eventId": "public-post-2114073762895405067",
+        "kind": "non_reset",
+        "state": "non_reset",
+        "features": {
+          "tiboStatement": true,
+          "explicitCommitment": false
+        },
+        "likelihoodRatio": 1.0
+      },
+      {
+        "eventId": "public-post-2114074317759938918",
+        "kind": "non_reset",
+        "state": "non_reset",
+        "features": {
+          "tiboStatement": true,
+          "explicitCommitment": false
+        },
+        "likelihoodRatio": 1.0
+      },
+      {
+        "eventId": "public-post-2114074885622501706",
+        "kind": "non_reset",
+        "state": "non_reset",
+        "features": {
+          "tiboStatement": true,
+          "explicitCommitment": false
+        },
+        "likelihoodRatio": 1.0
+      },
+      {
+        "eventId": "public-post-2114086171907428846",
         "kind": "non_reset",
         "state": "non_reset",
         "features": {
