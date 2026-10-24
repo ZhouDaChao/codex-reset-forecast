@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "status": "prediction",
-  "windowStart": "2026-10-24T13:49:17Z",
-  "windowEnd": "2026-10-25T13:49:17Z",
+  "windowStart": "2026-10-24T15:58:43Z",
+  "windowEnd": "2026-10-25T15:58:43Z",
   "resetType": "direct",
   "subjectiveProbability": 0.09999999999999999,
   "sources": [
     "https://github.com/ZhouDaChao/codex-reset-forecast/blob/main/MODEL.md"
   ],
-  "updatedAt": "2026-10-24T13:49:17Z",
-  "expiresAt": "2026-10-24T16:49:17Z",
+  "updatedAt": "2026-10-24T15:58:43Z",
+  "expiresAt": "2026-10-24T18:58:43Z",
   "eventId": "experimental-direct-24h",
   "model": {
     "schemaVersion": 1,
