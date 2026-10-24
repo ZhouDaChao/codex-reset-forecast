@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "collection": {
     "status": "ok",
-    "checkedAt": "2026-10-24T15:58:43Z",
+    "checkedAt": "2026-10-24T17:49:38Z",
     "reviewedSurfaces": [
       "Posts",
       "Replies"
     ],
     "latestReviewedPostIds": [
-      "2113838156193894447",
-      "2113771215433392478"
+      "2114030784625647855",
+      "2114037527598576003"
     ],
-    "result": "Successful current-source review; no new reset evidence. This does not establish complete historical observation coverage."
+    "result": "Successful incremental Posts and Replies review. Two new posts recorded; no qualified reset commitment. This does not establish complete historical observation coverage."
   },
   "coverage": [],
   "candidateResearch": {
@@ -189,6 +189,53 @@
       "verifiedSourceWording": "Landing within the next 2 hours",
       "unsupportedAggregatorOccurrenceTime": "2026-10-15T06:13:01Z",
       "note": "This source is a promise. An aggregator claim of Done and dusted. and 06:13:01Z is not supported by this URL; that mismatch does not prove no event happened."
+    },
+    {
+      "eventId": "public-post-2114030784625647855",
+      "kind": "non_reset",
+      "scope": "unknown",
+      "state": "non_reset",
+      "publishedAt": "2026-10-24T16:26:30Z",
+      "verifiedSourceWording": "Saturday is for fixing bugs while sipping coffee. What are some great places to hangout in SF?",
+      "sources": [
+        "https://x.com/thsottiaux/status/2114030784625647855"
+      ],
+      "note": "Bug fixing and a request for San Francisco recommendations; no reset statement.",
+      "knownAt": "2026-10-24T17:49:38Z",
+      "occurredAt": null,
+      "windowStart": null,
+      "windowEnd": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": false
+      }
+    },
+    {
+      "eventId": "public-post-2114037527598576003",
+      "kind": "unknown",
+      "scope": "unknown",
+      "state": "ambiguous_statement",
+      "publishedAt": "2026-10-24T16:53:18Z",
+      "verifiedSourceWording": "One day",
+      "sources": [
+        "https://x.com/thsottiaux/status/2114037527598576003"
+      ],
+      "contextSource": "https://x.com/vishalsingh2972/status/2114031587549659162",
+      "note": "Reply to an ordinary user's RESET PARK image. No explicit Codex event, type, eligible accounts or time window; not a within-24-hours commitment.",
+      "knownAt": "2026-10-24T17:49:38Z",
+      "occurredAt": null,
+      "windowStart": null,
+      "windowEnd": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": false
+      }
     }
   ]
 }
