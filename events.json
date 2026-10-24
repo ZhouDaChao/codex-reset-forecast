@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "collection": {
     "status": "ok",
-    "checkedAt": "2026-10-24T20:20:03Z",
+    "checkedAt": "2026-10-24T21:58:22Z",
     "reviewedSurfaces": [
       "Posts",
       "Replies"
@@ -11,7 +11,7 @@
       "2114074885622501706",
       "2114086171907428846"
     ],
-    "result": "Successful incremental Posts and Replies review. Four new non-reset posts recorded; no qualified reset commitment. This does not establish complete historical observation coverage."
+    "result": "Successful incremental Posts and Replies review; no new posts or reset evidence. This does not establish complete historical observation coverage."
   },
   "coverage": [],
   "candidateResearch": {
