@@ -2,9 +2,15 @@
   "schemaVersion": 1,
   "collection": {
     "status": "ok",
-    "checkedAt": "2026-10-24T08:31:23Z",
-    "reviewedSurfaces": ["Posts", "Replies"],
-    "latestReviewedPostIds": ["2113838156193894447", "2113771215433392478"],
+    "checkedAt": "2026-10-24T09:51:13Z",
+    "reviewedSurfaces": [
+      "Posts",
+      "Replies"
+    ],
+    "latestReviewedPostIds": [
+      "2113838156193894447",
+      "2113771215433392478"
+    ],
     "result": "Successful current-source review; no new reset evidence. This does not establish complete historical observation coverage."
   },
   "coverage": [],
