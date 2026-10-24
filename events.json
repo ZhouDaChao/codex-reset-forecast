@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "collection": {
     "status": "ok",
-    "checkedAt": "2026-10-24T21:58:22Z",
+    "checkedAt": "2026-10-24T23:42:51Z",
     "reviewedSurfaces": [
       "Posts",
       "Replies"
     ],
     "latestReviewedPostIds": [
       "2114074885622501706",
-      "2114086171907428846"
+      "2114125878804545940"
     ],
-    "result": "Successful incremental Posts and Replies review; no new posts or reset evidence. This does not establish complete historical observation coverage."
+    "result": "Successful incremental Posts and Replies review. Two new non-reset replies recorded; no qualified reset commitment. This does not establish complete historical observation coverage."
   },
   "coverage": [],
   "candidateResearch": {
@@ -320,6 +320,48 @@
       ],
       "verifiedSourceWording": "Hi 👋",
       "note": "Greeting in a discussion about personnel departures, not reset information."
+    },
+    {
+      "eventId": "public-post-2114125878804545940",
+      "kind": "non_reset",
+      "scope": "unknown",
+      "state": "non_reset",
+      "publishedAt": "2026-10-24T22:44:22Z",
+      "knownAt": "2026-10-24T23:42:51Z",
+      "occurredAt": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": false
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2114125878804545940"
+      ],
+      "verifiedSourceWording": "I doubt they are on twitter",
+      "note": "Reply to a family-time comment quoting the earlier coffee/bug-fixing post, not reset information."
+    },
+    {
+      "eventId": "public-post-2114125293124542632",
+      "kind": "non_reset",
+      "scope": "unknown",
+      "state": "non_reset",
+      "publishedAt": "2026-10-24T22:42:03Z",
+      "knownAt": "2026-10-24T23:42:51Z",
+      "occurredAt": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": false
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2114125293124542632"
+      ],
+      "verifiedSourceWording": "Step 1: Quit posting butts and go buy containers\nStep 2: ???\nStep 3: Celebrate your 12 users",
+      "note": "Product banter, not a reset commitment."
     }
   ]
 }
