@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "collection": {
     "status": "ok",
-    "checkedAt": "2026-10-24T17:49:38Z",
+    "checkedAt": "2026-10-24T20:20:03Z",
     "reviewedSurfaces": [
       "Posts",
       "Replies"
     ],
     "latestReviewedPostIds": [
-      "2114030784625647855",
-      "2114037527598576003"
+      "2114074885622501706",
+      "2114086171907428846"
     ],
-    "result": "Successful incremental Posts and Replies review. Two new posts recorded; no qualified reset commitment. This does not establish complete historical observation coverage."
+    "result": "Successful incremental Posts and Replies review. Four new non-reset posts recorded; no qualified reset commitment. This does not establish complete historical observation coverage."
   },
   "coverage": [],
   "candidateResearch": {
@@ -236,6 +236,90 @@
         "tiboStatement": true,
         "explicitCommitment": false
       }
+    },
+    {
+      "eventId": "public-post-2114074885622501706",
+      "kind": "non_reset",
+      "scope": "unknown",
+      "state": "non_reset",
+      "publishedAt": "2026-10-24T19:21:45Z",
+      "knownAt": "2026-10-24T20:20:03Z",
+      "occurredAt": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": false
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2114074885622501706"
+      ],
+      "verifiedSourceWording": "DM if you want to help scale dots to 1B users and have done similar things in the past",
+      "note": "Recruiting for dots scaling, not a reset."
+    },
+    {
+      "eventId": "public-post-2114086171907428846",
+      "kind": "non_reset",
+      "scope": "unknown",
+      "state": "non_reset",
+      "publishedAt": "2026-10-24T20:06:35Z",
+      "knownAt": "2026-10-24T20:20:03Z",
+      "occurredAt": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": false
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2114086171907428846"
+      ],
+      "verifiedSourceWording": "Fortunately, this is fake",
+      "note": "Denial of a fake cybersecurity account restriction notice, not a reset cancellation."
+    },
+    {
+      "eventId": "public-post-2114074317759938918",
+      "kind": "non_reset",
+      "scope": "unknown",
+      "state": "non_reset",
+      "publishedAt": "2026-10-24T19:19:29Z",
+      "knownAt": "2026-10-24T20:20:03Z",
+      "occurredAt": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": false
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2114074317759938918"
+      ],
+      "verifiedSourceWording": "No need for a bribe. What’s bothering you",
+      "note": "Reply about removing mini from Codex, not a reset commitment."
+    },
+    {
+      "eventId": "public-post-2114073762895405067",
+      "kind": "non_reset",
+      "scope": "unknown",
+      "state": "non_reset",
+      "publishedAt": "2026-10-24T19:17:17Z",
+      "knownAt": "2026-10-24T20:20:03Z",
+      "occurredAt": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": false
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2114073762895405067"
+      ],
+      "verifiedSourceWording": "Hi 👋",
+      "note": "Greeting in a discussion about personnel departures, not reset information."
     }
   ]
 }
