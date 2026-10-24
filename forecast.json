@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "status": "prediction",
-  "windowStart": "2026-10-24T15:58:43Z",
-  "windowEnd": "2026-10-25T15:58:43Z",
+  "windowStart": "2026-10-24T17:49:38Z",
+  "windowEnd": "2026-10-25T17:49:38Z",
   "resetType": "direct",
   "subjectiveProbability": 0.09999999999999999,
   "sources": [
     "https://github.com/ZhouDaChao/codex-reset-forecast/blob/main/MODEL.md"
   ],
-  "updatedAt": "2026-10-24T15:58:43Z",
-  "expiresAt": "2026-10-24T18:58:43Z",
+  "updatedAt": "2026-10-24T17:49:38Z",
+  "expiresAt": "2026-10-24T20:49:38Z",
   "eventId": "experimental-direct-24h",
   "model": {
     "schemaVersion": 1,
@@ -148,12 +148,32 @@
         "likelihoodRatio": 1.0
       },
       {
+        "eventId": "public-post-2114030784625647855",
+        "kind": "non_reset",
+        "state": "non_reset",
+        "features": {
+          "tiboStatement": true,
+          "explicitCommitment": false
+        },
+        "likelihoodRatio": 1.0
+      },
+      {
         "eventId": "day18-unresolved-promise",
         "kind": "unknown",
         "state": "unresolved_past_promise",
         "features": {
           "tiboStatement": true,
           "explicitCommitment": true
+        },
+        "likelihoodRatio": 1.0
+      },
+      {
+        "eventId": "public-post-2114037527598576003",
+        "kind": "unknown",
+        "state": "ambiguous_statement",
+        "features": {
+          "tiboStatement": true,
+          "explicitCommitment": false
         },
         "likelihoodRatio": 1.0
       },
