@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "collection": {
     "status": "ok",
-    "checkedAt": "2026-10-25T02:21:16Z",
+    "checkedAt": "2026-10-25T04:12:04Z",
     "reviewedSurfaces": [
       "Posts",
       "Replies"
     ],
     "latestReviewedPostIds": [
-      "2114074885622501706",
-      "2114125878804545940"
+      "2114200152701575656",
+      "2114200291319124163"
     ],
-    "result": "Successful incremental Posts and Replies review; no new posts or reset evidence. This does not establish complete historical observation coverage."
+    "result": "Successful incremental Posts and Replies review. New Day 20 reset-related promise with a midnight PST deadline; reset type and eligible account scope unspecified. No execution confirmation. No complete historical coverage inferred."
   },
   "coverage": [],
   "candidateResearch": {
@@ -362,6 +362,55 @@
       ],
       "verifiedSourceWording": "Step 1: Quit posting butts and go buy containers\nStep 2: ???\nStep 3: Celebrate your 12 users",
       "note": "Product banter, not a reset commitment."
+    },
+    {
+      "eventId": "day20-reset-promise",
+      "kind": "unknown",
+      "scope": "unknown",
+      "state": "announced",
+      "knownAt": "2026-10-25T04:12:04Z",
+      "publishedAt": "2026-10-25T03:39:31Z",
+      "replyPublishedAt": "2026-10-25T03:40:04Z",
+      "occurredAt": null,
+      "windowStart": "2026-10-25T03:40:04Z",
+      "windowEnd": "2026-10-25T08:00:00Z",
+      "expiresAt": "2026-10-25T07:00:00Z",
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": true
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2114200152701575656",
+        "https://x.com/thsottiaux/status/2114200291319124163"
+      ],
+      "verifiedSourceWording": "Day 20/ Rest and reset",
+      "verifiedReplyWording": "By midnight PST",
+      "alternativeDeadlineUtc": "2026-10-25T07:00:00Z",
+      "note": "Strict PST midnight means 08:00Z; if local PDT was intended, 07:00Z. These are alternative deadlines, not a 07:00–08:00 execution window. Earliest deadline used for conservative evidence expiry. Direct versus banked and eligible account scope are unspecified, so no typed evidence multiplier is applied. Not confirmed executed."
+    },
+    {
+      "eventId": "public-post-2114199013176303641",
+      "kind": "non_reset",
+      "scope": "unknown",
+      "state": "non_reset",
+      "publishedAt": "2026-10-25T03:34:59Z",
+      "knownAt": "2026-10-25T04:12:04Z",
+      "occurredAt": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": false
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2114199013176303641"
+      ],
+      "verifiedSourceWording": "Congrats, that’s not a butt",
+      "note": "Product banter, not reset information."
     }
   ]
 }
