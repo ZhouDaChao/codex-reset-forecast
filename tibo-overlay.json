@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-25T20:34:05.000Z",
-  "expiresAt": "2026-10-25T23:12:17.880Z",
+  "checkedAt": "2026-10-25T22:34:52.000Z",
+  "expiresAt": "2026-10-26T01:14:21.173Z",
   "event": {
     "id": "x:2114237083652882932",
     "status": "execution_claim",
@@ -17,7 +17,7 @@
   },
   "baseline": {
     "source": "https://www.willcodexquotareset.com/api/forecast",
-    "sourceFetchedAt": "2026-10-25T20:12:17.880Z",
+    "sourceFetchedAt": "2026-10-25T22:14:21.173Z",
     "modelVersion": "evidence-v2",
     "state": "forecast",
     "horizonHours": 48,
@@ -40,10 +40,10 @@
     "reason": "站方已抓到Tibo帖子，当前补充修正匹配条件不成立；执行声明分类仍未更新",
     "assumptions": [
       "执行声明发布时间为10月25日06:06:16Z，实际执行时间、类型及账户范围未知",
-      "新增回复与重置无关；站方列表非空，不套用以声明时间为代理的冷却修正",
+      "当前核验无新重置信息；站方列表非空，不套用以声明时间为代理的冷却修正",
       "网站48小时估计未校准；抓到原帖不代表已正确分类，也不代表个人到账"
     ],
-    "windowStart": "2026-10-25T20:34:05.000Z",
-    "windowEnd": "2026-10-27T20:34:05.000Z"
+    "windowStart": "2026-10-25T22:34:52.000Z",
+    "windowEnd": "2026-10-27T22:34:52.000Z"
   }
 }
