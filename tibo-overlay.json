@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-25T16:31:32.000Z",
-  "expiresAt": "2026-10-25T19:08:29.168Z",
+  "checkedAt": "2026-10-25T18:17:26.000Z",
+  "expiresAt": "2026-10-25T21:10:50.276Z",
   "event": {
     "id": "x:2114237083652882932",
     "status": "execution_claim",
@@ -17,11 +17,11 @@
   },
   "baseline": {
     "source": "https://www.willcodexquotareset.com/api/forecast",
-    "sourceFetchedAt": "2026-10-25T16:08:29.168Z",
+    "sourceFetchedAt": "2026-10-25T18:10:50.276Z",
     "modelVersion": "evidence-v2",
     "state": "forecast",
     "horizonHours": 48,
-    "score": 14,
+    "score": 12,
     "calibrated": false,
     "resetAnnounced": false,
     "latestResetAt": "2026-08-31T02:34:27.000Z",
@@ -30,24 +30,20 @@
       {
         "label": "baseline",
         "points": 12
-      },
-      {
-        "label": "OpenAI event hint",
-        "points": 2
       }
     ],
-    "tiboPostsEmpty": false
+    "tiboPostsEmpty": true
   },
   "correction": {
-    "applied": false,
-    "referencePercent": null,
-    "reason": "站方基准已变化且已抓到Tibo帖子；旧修正停止，当前多因素修正待定",
+    "applied": true,
+    "referencePercent": 5,
+    "reason": "站方当前仅基础分且遗漏已核执行声明；按站方72小时恢复规则给出情景参考",
     "assumptions": [
-      "官方执行声明仍在；无新重置承诺，实际执行时间及账户范围未知",
-      "站方已抓到原帖但执行分类仍未更新，不能把原值视为已完整吸收证据",
-      "当前不是仅基础分且Tibo列表非空，不强套旧冷却修正；估计均未校准"
+      "以10月25日06:06:16Z执行声明发布时间代理实际执行时间，实际时间未知",
+      "沿用站方冷却规则的48小时情景参考，未校准，不是官方概率",
+      "无新增重置承诺；重置类型及账户范围未知，不代表个人到账"
     ],
-    "windowStart": "2026-10-25T16:31:32.000Z",
-    "windowEnd": "2026-10-27T16:31:32.000Z"
+    "windowStart": "2026-10-25T18:17:26.000Z",
+    "windowEnd": "2026-10-27T18:17:26.000Z"
   }
 }
