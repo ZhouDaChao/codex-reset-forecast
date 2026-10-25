@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "collection": {
     "status": "ok",
-    "checkedAt": "2026-10-25T04:12:04Z",
+    "checkedAt": "2026-10-25T06:14:15Z",
     "reviewedSurfaces": [
       "Posts",
       "Replies"
     ],
     "latestReviewedPostIds": [
-      "2114200152701575656",
-      "2114200291319124163"
+      "2114237083652882932",
+      "2114237441250828563"
     ],
-    "result": "Successful incremental Posts and Replies review. New Day 20 reset-related promise with a midnight PST deadline; reset type and eligible account scope unspecified. No execution confirmation. No complete historical coverage inferred."
+    "result": "Successful incremental review. Tibo announced Day 20 propagation complete; type, account scope and actual execution timing remain unspecified. Three additional replies recorded. No complete historical coverage inferred."
   },
   "coverage": [],
   "candidateResearch": {
@@ -411,6 +411,99 @@
       ],
       "verifiedSourceWording": "Congrats, that’s not a butt",
       "note": "Product banter, not reset information."
+    },
+    {
+      "eventId": "day20-reset-promise",
+      "kind": "unknown",
+      "scope": "unknown",
+      "state": "execution_reported",
+      "knownAt": "2026-10-25T06:14:15Z",
+      "publishedAt": "2026-10-25T06:06:16Z",
+      "replyPublishedAt": "2026-10-25T03:40:04Z",
+      "occurredAt": null,
+      "windowStart": null,
+      "windowEnd": null,
+      "expiresAt": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": false,
+        "executionClaim": true
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2114200152701575656",
+        "https://x.com/thsottiaux/status/2114200291319124163",
+        "https://x.com/thsottiaux/status/2114237083652882932"
+      ],
+      "verifiedSourceWording": "It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too.",
+      "verifiedReplyWording": "By midnight PST",
+      "alternativeDeadlineUtc": "2026-10-25T07:00:00Z",
+      "note": "Author quotes the Day 20 midnight promise and announces propagation complete. This supersedes the future promise, but direct/banked type, eligible accounts and actual execution timing remain unknown. Publication time is not execution time; no individual account receipt or verified typed outcome inferred."
+    },
+    {
+      "eventId": "public-post-2114237441250828563",
+      "kind": "non_reset",
+      "scope": "unknown",
+      "state": "non_reset",
+      "publishedAt": "2026-10-25T06:07:41Z",
+      "knownAt": "2026-10-25T06:14:15Z",
+      "occurredAt": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": false
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2114237441250828563"
+      ],
+      "verifiedSourceWording": ".com",
+      "note": "Non-reset reply."
+    },
+    {
+      "eventId": "public-post-2114228445043691592",
+      "kind": "non_reset",
+      "scope": "unknown",
+      "state": "non_reset",
+      "publishedAt": "2026-10-25T05:31:56Z",
+      "knownAt": "2026-10-25T06:14:15Z",
+      "occurredAt": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": false
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2114228445043691592"
+      ],
+      "verifiedSourceWording": "YOU GOT ME",
+      "note": "Meme image in response to an ordinary user's reset joke; not independent execution evidence."
+    },
+    {
+      "eventId": "public-post-2114228044072403055",
+      "kind": "non_reset",
+      "scope": "unknown",
+      "state": "non_reset",
+      "publishedAt": "2026-10-25T05:30:20Z",
+      "knownAt": "2026-10-25T06:14:15Z",
+      "occurredAt": null,
+      "official": true,
+      "sourceVerified": true,
+      "outcomeVerified": false,
+      "features": {
+        "tiboStatement": true,
+        "explicitCommitment": false
+      },
+      "sources": [
+        "https://x.com/thsottiaux/status/2114228044072403055"
+      ],
+      "verifiedSourceWording": "Not a real improvement, put the reset in the bag",
+      "note": "Banter about T3 Code updates; bag does not establish banked reset type."
     }
   ]
 }
