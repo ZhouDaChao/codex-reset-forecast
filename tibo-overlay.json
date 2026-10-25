@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-25T14:45:00Z",
-  "expiresAt": "2026-10-25T17:45:00Z",
+  "checkedAt": "2026-10-25T16:31:32.000Z",
+  "expiresAt": "2026-10-25T19:08:29.168Z",
   "event": {
     "id": "x:2114237083652882932",
     "status": "execution_claim",
@@ -17,33 +17,37 @@
   },
   "baseline": {
     "source": "https://www.willcodexquotareset.com/api/forecast",
-    "sourceFetchedAt": "2026-10-25T14:38:16.122Z",
+    "sourceFetchedAt": "2026-10-25T16:08:29.168Z",
     "modelVersion": "evidence-v2",
     "state": "forecast",
     "horizonHours": 48,
-    "score": 12,
+    "score": 14,
     "calibrated": false,
     "resetAnnounced": false,
-    "latestResetAt": "2026-08-31T02:34:27Z",
+    "latestResetAt": "2026-08-31T02:34:27.000Z",
     "evidenceTier": "indirect",
     "breakdown": [
       {
         "label": "baseline",
         "points": 12
+      },
+      {
+        "label": "OpenAI event hint",
+        "points": 2
       }
     ],
-    "tiboPostsEmpty": true
+    "tiboPostsEmpty": false
   },
   "correction": {
-    "applied": true,
-    "referencePercent": 4,
-    "reason": "网站未纳入执行声明；按站方重置后冷却规则作情景修正",
+    "applied": false,
+    "referencePercent": null,
+    "reason": "站方基准已变化且已抓到Tibo帖子；旧修正停止，当前多因素修正待定",
     "assumptions": [
-      "核验时间精度为分钟；公告时间仅作计算代理，实际执行时间、类型及适用范围未知",
-      "修正为未校准情景参考，不代表个人账户到账或真实发生概率",
-      "原站方基础分12；采用3起步、72小时线性恢复至12的公开规则"
+      "官方执行声明仍在；无新重置承诺，实际执行时间及账户范围未知",
+      "站方已抓到原帖但执行分类仍未更新，不能把原值视为已完整吸收证据",
+      "当前不是仅基础分且Tibo列表非空，不强套旧冷却修正；估计均未校准"
     ],
-    "windowStart": "2026-10-25T14:45:00Z",
-    "windowEnd": "2026-10-27T14:45:00Z"
+    "windowStart": "2026-10-25T16:31:32.000Z",
+    "windowEnd": "2026-10-27T16:31:32.000Z"
   }
 }
