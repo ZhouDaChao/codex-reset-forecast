@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "publisher": "dot-public-tibo-review",
+  "source": "https://x.com/thsottiaux",
+  "checkedAt": "2026-10-25T14:45:00Z",
+  "expiresAt": "2026-10-25T17:45:00Z",
+  "event": {
+    "id": "x:2114237083652882932",
+    "status": "execution_claim",
+    "urls": [
+      "https://x.com/thsottiaux/status/2114237083652882932"
+    ],
+    "publishedAt": "2026-10-25T06:06:16Z",
+    "actualExecutionAt": null,
+    "resetType": "unknown",
+    "scope": "unknown"
+  },
+  "baseline": {
+    "source": "https://www.willcodexquotareset.com/api/forecast",
+    "sourceFetchedAt": "2026-10-25T14:38:16.122Z",
+    "modelVersion": "evidence-v2",
+    "state": "forecast",
+    "horizonHours": 48,
+    "score": 12,
+    "calibrated": false,
+    "resetAnnounced": false,
+    "latestResetAt": "2026-08-31T02:34:27Z",
+    "evidenceTier": "indirect",
+    "breakdown": [
+      {
+        "label": "baseline",
+        "points": 12
+      }
+    ],
+    "tiboPostsEmpty": true
+  },
+  "correction": {
+    "applied": true,
+    "referencePercent": 4,
+    "reason": "网站未纳入执行声明；按站方重置后冷却规则作情景修正",
+    "assumptions": [
+      "核验时间精度为分钟；公告时间仅作计算代理，实际执行时间、类型及适用范围未知",
+      "修正为未校准情景参考，不代表个人账户到账或真实发生概率",
+      "原站方基础分12；采用3起步、72小时线性恢复至12的公开规则"
+    ],
+    "windowStart": "2026-10-25T14:45:00Z",
+    "windowEnd": "2026-10-27T14:45:00Z"
+  }
+}
