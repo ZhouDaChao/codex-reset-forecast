@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "collection": {
     "status": "ok",
-    "checkedAt": "2026-10-25T06:14:15Z",
+    "checkedAt": "2026-10-25T08:23:52Z",
     "reviewedSurfaces": [
       "Posts",
       "Replies"
@@ -11,7 +11,7 @@
       "2114237083652882932",
       "2114237441250828563"
     ],
-    "result": "Successful incremental review. Tibo announced Day 20 propagation complete; type, account scope and actual execution timing remain unspecified. Three additional replies recorded. No complete historical coverage inferred."
+    "result": "Successful incremental Posts and Replies review; no new items beyond the previously reviewed boundaries. Day 20 execution claim remains unchanged; type, scope and actual execution timing remain unknown. No complete historical coverage inferred."
   },
   "coverage": [],
   "candidateResearch": {
