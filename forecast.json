@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "status": "prediction",
-  "windowStart": "2026-10-25T04:12:04Z",
-  "windowEnd": "2026-10-26T04:12:04Z",
+  "windowStart": "2026-10-25T06:14:15Z",
+  "windowEnd": "2026-10-26T06:14:15Z",
   "resetType": "direct",
   "subjectiveProbability": 0.09999999999999999,
   "sources": [
     "https://github.com/ZhouDaChao/codex-reset-forecast/blob/main/MODEL.md"
   ],
-  "updatedAt": "2026-10-25T04:12:04Z",
-  "expiresAt": "2026-10-25T07:12:04Z",
+  "updatedAt": "2026-10-25T06:14:15Z",
+  "expiresAt": "2026-10-25T09:14:15Z",
   "eventId": "experimental-direct-24h",
   "model": {
     "schemaVersion": 1,
@@ -228,6 +228,36 @@
         "likelihoodRatio": 1.0
       },
       {
+        "eventId": "public-post-2114228044072403055",
+        "kind": "non_reset",
+        "state": "non_reset",
+        "features": {
+          "tiboStatement": true,
+          "explicitCommitment": false
+        },
+        "likelihoodRatio": 1.0
+      },
+      {
+        "eventId": "public-post-2114228445043691592",
+        "kind": "non_reset",
+        "state": "non_reset",
+        "features": {
+          "tiboStatement": true,
+          "explicitCommitment": false
+        },
+        "likelihoodRatio": 1.0
+      },
+      {
+        "eventId": "public-post-2114237441250828563",
+        "kind": "non_reset",
+        "state": "non_reset",
+        "features": {
+          "tiboStatement": true,
+          "explicitCommitment": false
+        },
+        "likelihoodRatio": 1.0
+      },
+      {
         "eventId": "day18-unresolved-promise",
         "kind": "unknown",
         "state": "unresolved_past_promise",
@@ -240,10 +270,11 @@
       {
         "eventId": "day20-reset-promise",
         "kind": "unknown",
-        "state": "announced",
+        "state": "execution_reported",
         "features": {
           "tiboStatement": true,
-          "explicitCommitment": true
+          "explicitCommitment": false,
+          "executionClaim": true
         },
         "likelihoodRatio": 1.0
       },
