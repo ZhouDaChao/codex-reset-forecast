@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-26T19:37:52.000Z",
-  "expiresAt": "2026-10-26T22:31:21.201Z",
+  "checkedAt": "2026-10-26T22:26:46.000Z",
+  "expiresAt": "2026-10-27T01:04:17.707Z",
   "event": {
     "id": "x:2114588174249071102",
     "status": "future_commitment",
@@ -17,11 +17,11 @@
   },
   "baseline": {
     "source": "https://www.willcodexquotareset.com/api/forecast",
-    "sourceFetchedAt": "2026-10-26T19:31:21.201Z",
+    "sourceFetchedAt": "2026-10-26T22:04:17.707Z",
     "modelVersion": "evidence-v2",
     "state": "forecast",
     "horizonHours": 48,
-    "score": 29,
+    "score": 28,
     "calibrated": false,
     "resetAnnounced": false,
     "latestResetAt": "2026-08-31T02:34:27.000Z",
@@ -33,7 +33,7 @@
       },
       {
         "label": "product-release hint",
-        "points": 17
+        "points": 16
       }
     ],
     "tiboPostsEmpty": false
@@ -41,13 +41,13 @@
   "correction": {
     "applied": false,
     "referencePercent": null,
-    "reason": "Day21执行仍未核实；Day22 Terra发布及2倍用量不是重置，站方29分含发布因素，不能用冷却项覆盖总分",
+    "reason": "Day21执行仍未核实；Day22 Terra发布及2倍用量不是重置，站方28分含发布因素，不能用冷却项覆盖总分",
     "assumptions": [
       "声明发表于10月26日05:21:22Z；今天的精确截止与时区未明确，执行未核实",
-      "站方29%为未校准48小时多因素估计；不自行加减分，产品用量提升不等于重置",
+      "站方28%为未校准48小时多因素估计；不自行加减分，产品用量提升不等于重置",
       "类型及账户范围未知，不代表个人到账；本窗口仅评估窗，不是执行时间或代理"
     ],
-    "windowStart": "2026-10-26T19:37:52.000Z",
-    "windowEnd": "2026-10-28T19:37:52.000Z"
+    "windowStart": "2026-10-26T22:26:46.000Z",
+    "windowEnd": "2026-10-28T22:26:46.000Z"
   }
 }
