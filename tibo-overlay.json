@@ -2,22 +2,22 @@
   "schemaVersion": 1,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-26T03:59:26.000Z",
-  "expiresAt": "2026-10-26T06:49:07.597Z",
+  "checkedAt": "2026-10-26T06:31:56.000Z",
+  "expiresAt": "2026-10-26T09:21:08.828Z",
   "event": {
-    "id": "x:2114237083652882932",
-    "status": "execution_claim",
+    "id": "x:2114588174249071102",
+    "status": "future_commitment",
     "urls": [
-      "https://x.com/thsottiaux/status/2114237083652882932"
+      "https://x.com/thsottiaux/status/2114588174249071102"
     ],
-    "publishedAt": "2026-10-25T06:06:16Z",
+    "publishedAt": "2026-10-26T05:21:22.000Z",
     "actualExecutionAt": null,
     "resetType": "unknown",
     "scope": "unknown"
   },
   "baseline": {
     "source": "https://www.willcodexquotareset.com/api/forecast",
-    "sourceFetchedAt": "2026-10-26T03:49:07.597Z",
+    "sourceFetchedAt": "2026-10-26T06:21:08.828Z",
     "modelVersion": "evidence-v2",
     "state": "forecast",
     "horizonHours": 48,
@@ -37,13 +37,13 @@
   "correction": {
     "applied": false,
     "referencePercent": null,
-    "reason": "站方已抓到Tibo帖子，当前补充修正匹配条件不成立；执行声明分类仍未更新",
+    "reason": "Day21宣布今天重置，站方已抓到原文但仍仅基础分；无法按现有规则量化修正，待定",
     "assumptions": [
-      "执行声明发布时间为10月25日06:06:16Z，实际执行时间、类型及账户范围未知",
-      "当前核验无新重置信息；站方列表非空，不套用以声明时间为代理的冷却修正",
-      "网站48小时估计未校准；抓到原帖不代表已正确分类，也不代表个人到账"
+      "声明发表于10月26日05:21:22Z；今天的精确截止与时区未明确，执行未核实",
+      "站方12%为未校准48小时估计；已抓到公告不代表已纳入分类，不自行加减分",
+      "类型及账户范围未知，不代表个人到账；本窗口仅评估窗，不是执行时间或代理"
     ],
-    "windowStart": "2026-10-26T03:59:26.000Z",
-    "windowEnd": "2026-10-28T03:59:26.000Z"
+    "windowStart": "2026-10-26T06:31:56.000Z",
+    "windowEnd": "2026-10-28T06:31:56.000Z"
   }
 }
