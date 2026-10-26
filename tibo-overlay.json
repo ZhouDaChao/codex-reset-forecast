@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-26T00:24:12.000Z",
-  "expiresAt": "2026-10-26T03:16:21.683Z",
+  "checkedAt": "2026-10-26T02:21:04.000Z",
+  "expiresAt": "2026-10-26T05:18:27.486Z",
   "event": {
     "id": "x:2114237083652882932",
     "status": "execution_claim",
@@ -17,7 +17,7 @@
   },
   "baseline": {
     "source": "https://www.willcodexquotareset.com/api/forecast",
-    "sourceFetchedAt": "2026-10-26T00:16:21.683Z",
+    "sourceFetchedAt": "2026-10-26T02:18:27.486Z",
     "modelVersion": "evidence-v2",
     "state": "forecast",
     "horizonHours": 48,
@@ -43,7 +43,7 @@
       "当前核验无新重置信息；站方列表非空，不套用以声明时间为代理的冷却修正",
       "网站48小时估计未校准；抓到原帖不代表已正确分类，也不代表个人到账"
     ],
-    "windowStart": "2026-10-26T00:24:12.000Z",
-    "windowEnd": "2026-10-28T00:24:12.000Z"
+    "windowStart": "2026-10-26T02:21:04.000Z",
+    "windowEnd": "2026-10-28T02:21:04.000Z"
   }
 }
