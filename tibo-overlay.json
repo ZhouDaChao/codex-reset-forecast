@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-26T14:30:31.000Z",
-  "expiresAt": "2026-10-26T17:27:14.964Z",
+  "checkedAt": "2026-10-26T16:14:29.000Z",
+  "expiresAt": "2026-10-26T18:58:57.356Z",
   "event": {
     "id": "x:2114588174249071102",
     "status": "future_commitment",
@@ -17,7 +17,7 @@
   },
   "baseline": {
     "source": "https://www.willcodexquotareset.com/api/forecast",
-    "sourceFetchedAt": "2026-10-26T14:27:14.964Z",
+    "sourceFetchedAt": "2026-10-26T15:58:57.356Z",
     "modelVersion": "evidence-v2",
     "state": "forecast",
     "horizonHours": 48,
@@ -32,18 +32,18 @@
         "points": 12
       }
     ],
-    "tiboPostsEmpty": false
+    "tiboPostsEmpty": true
   },
   "correction": {
     "applied": false,
     "referencePercent": null,
-    "reason": "Day21宣布今天重置，站方已抓到原文但仍仅基础分；无法按现有规则量化修正，待定",
+    "reason": "Day21宣布今天重置但执行未核实；站方本轮Tibo抓取失败且仅基础分，无法按现有规则量化修正",
     "assumptions": [
       "声明发表于10月26日05:21:22Z；今天的精确截止与时区未明确，执行未核实",
-      "站方12%为未校准48小时估计；已抓到公告不代表已纳入分类，不自行加减分",
+      "站方12%为未校准48小时估计；本轮未抓到Tibo动态，不自行加减分",
       "类型及账户范围未知，不代表个人到账；本窗口仅评估窗，不是执行时间或代理"
     ],
-    "windowStart": "2026-10-26T14:30:31.000Z",
-    "windowEnd": "2026-10-28T14:30:31.000Z"
+    "windowStart": "2026-10-26T16:14:29.000Z",
+    "windowEnd": "2026-10-28T16:14:29.000Z"
   }
 }
