@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-27T00:24:16.000Z",
-  "expiresAt": "2026-10-27T03:06:23.207Z",
+  "checkedAt": "2026-10-27T02:06:23.000Z",
+  "expiresAt": "2026-10-27T04:36:38.022Z",
   "event": {
     "id": "x:2114588174249071102",
     "status": "future_commitment",
@@ -17,7 +17,7 @@
   },
   "baseline": {
     "source": "https://www.willcodexquotareset.com/api/forecast",
-    "sourceFetchedAt": "2026-10-27T00:06:23.207Z",
+    "sourceFetchedAt": "2026-10-27T01:36:38.022Z",
     "modelVersion": "evidence-v2",
     "state": "forecast",
     "horizonHours": 48,
@@ -43,7 +43,7 @@
       "站方12%为未校准48小时估计；本轮未抓到Tibo动态，不自行加减分",
       "类型及账户范围未知，不代表个人到账；本窗口仅评估窗，不是执行时间或代理"
     ],
-    "windowStart": "2026-10-27T00:24:16.000Z",
-    "windowEnd": "2026-10-29T00:24:16.000Z"
+    "windowStart": "2026-10-27T02:06:23.000Z",
+    "windowEnd": "2026-10-29T02:06:23.000Z"
   }
 }
