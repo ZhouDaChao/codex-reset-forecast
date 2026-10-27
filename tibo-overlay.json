@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-27T09:44:27.000Z",
-  "expiresAt": "2026-10-27T12:40:57.607Z",
+  "checkedAt": "2026-10-27T12:16:53.000Z",
+  "expiresAt": "2026-10-27T15:13:52.181Z",
   "event": {
     "id": "x:2114588174249071102",
     "status": "future_commitment",
@@ -17,11 +17,11 @@
   },
   "baseline": {
     "source": "https://www.willcodexquotareset.com/api/forecast",
-    "sourceFetchedAt": "2026-10-27T09:40:57.607Z",
+    "sourceFetchedAt": "2026-10-27T12:13:52.181Z",
     "modelVersion": "evidence-v2",
     "state": "forecast",
     "horizonHours": 48,
-    "score": 27,
+    "score": 16,
     "calibrated": false,
     "resetAnnounced": false,
     "latestResetAt": "2026-08-31T02:34:27.000Z",
@@ -32,26 +32,22 @@
         "points": 12
       },
       {
-        "label": "product-release hint",
-        "points": 11
-      },
-      {
         "label": "other incidents",
         "points": 4
       }
     ],
-    "tiboPostsEmpty": false
+    "tiboPostsEmpty": true
   },
   "correction": {
     "applied": false,
     "referencePercent": null,
-    "reason": "Day21执行仍未核实且不续期；站方27分含发布及故障因素，均非重置承诺，不能用冷却项覆盖总分",
+    "reason": "Day21执行仍未核实且不续期；站方本轮Tibo抓取失败，16分含故障因素，不能用冷却项覆盖总分",
     "assumptions": [
       "Day21声明发表于10月26日05:21:22Z；原称今天，未见执行确认，不续作新的承诺",
-      "站方27%为未校准48小时多因素估计；不自行加减分，发布或故障不等于重置",
+      "站方16%为未校准48小时估计；本轮未抓到Tibo动态，不自行加减分，故障不等于重置",
       "类型及账户范围未知，不代表个人到账；本窗口仅评估窗，不是执行时间或代理"
     ],
-    "windowStart": "2026-10-27T09:44:27.000Z",
-    "windowEnd": "2026-10-29T09:44:27.000Z"
+    "windowStart": "2026-10-27T12:16:53.000Z",
+    "windowEnd": "2026-10-29T12:16:53.000Z"
   }
 }
