@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-28T12:23:11.000Z",
-  "expiresAt": "2026-10-28T15:08:49.559Z",
+  "checkedAt": "2026-10-28T14:13:51Z",
+  "expiresAt": "2026-10-28T17:13:51Z",
   "event": {
     "id": "x:2115273064481218829",
     "status": "execution_claim",
@@ -12,40 +12,21 @@
       "https://x.com/thsottiaux/status/2115273253711409208",
       "https://x.com/thsottiaux/status/2115273064481218829"
     ],
-    "publishedAt": "2026-10-28T06:29:38.000Z",
+    "publishedAt": "2026-10-28T06:29:38Z",
     "actualExecutionAt": null,
     "resetType": "unknown",
-    "scope": "unknown"
+    "scope": "适用范围未明确"
   },
-  "baseline": {
-    "source": "https://www.willcodexquotareset.com/api/forecast",
-    "sourceFetchedAt": "2026-10-28T12:08:49.559Z",
-    "modelVersion": "evidence-v2",
-    "state": "forecast",
-    "horizonHours": 48,
-    "score": 12,
+  "forecast": {
+    "windowStart": "2026-10-28T14:13:51Z",
+    "windowEnd": "2026-10-30T14:13:51Z",
+    "probabilityPercent": null,
     "calibrated": false,
-    "resetAnnounced": false,
-    "latestResetAt": "2026-08-31T02:34:27.000Z",
-    "evidenceTier": "indirect",
-    "breakdown": [
-      {
-        "label": "baseline",
-        "points": 12
-      }
-    ],
-    "tiboPostsEmpty": true
-  },
-  "correction": {
-    "applied": false,
-    "referencePercent": null,
-    "reason": "Day23官方完成声明未变，无新重置承诺；站方Tibo抓取404仅余12分基线。类型适配及其他因素是否仍适用未核，不满足冷却修正前提，数值待定",
-    "assumptions": [
-      "完成声明发表于10月28日06:29:38Z；实际执行时间未知，未采用公告时间代理计算",
-      "网站12%为未校准48小时估计；源抓取失败不能证明其他因素不存在，未套用冷却公式",
-      "直接刷新或发卡及适用范围未知，不代表个人到账；明天有好消息不是新的重置承诺"
-    ],
-    "windowStart": "2026-10-28T12:23:11.000Z",
-    "windowEnd": "2026-10-30T12:23:11.000Z"
+    "reason": "Tibo 已引用此前重置承诺宣布完成，但没有提供下一次48小时内重置的明确新承诺，证据不足以可靠量化概率。",
+    "limitations": [
+      "实际执行时间、重置类型和适用范围未知，完成声明不证明个人额度已到账。",
+      "截至核验时Posts最新2115330127886463244，Replies最新2115329600897319076，未发现新增。",
+      "明日好消息不等同于再次重置承诺；概率为主观且未校准，证据不足时保留未知。"
+    ]
   }
 }
