@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-28T15:56:59Z",
-  "expiresAt": "2026-10-28T18:56:59Z",
+  "checkedAt": "2026-10-28T16:55:41Z",
+  "expiresAt": "2026-10-28T19:55:41Z",
   "event": {
     "id": "x:2115273064481218829",
     "status": "execution_claim",
@@ -18,14 +18,14 @@
     "scope": "适用范围未明确"
   },
   "forecast": {
-    "windowStart": "2026-10-28T15:56:59Z",
-    "windowEnd": "2026-10-30T15:56:59Z",
+    "windowStart": "2026-10-28T16:55:41Z",
+    "windowEnd": "2026-10-30T16:55:41Z",
     "probabilityPercent": null,
     "calibrated": false,
     "reason": "Tibo 已引用此前重置承诺宣布完成，但没有提供下一次48小时内重置的明确新承诺，证据不足以可靠量化概率。",
     "limitations": [
       "实际执行时间、重置类型和适用范围未知，完成声明不证明个人额度已到账。",
-      "截至核验时Posts最新2115330127886463244，Replies最新2115329600897319076，未发现新增。",
+      "已核Posts2115473170279080149及Replies2115473280677363810；网站浏览量与用量猜测回应均非重置承诺。",
       "明日好消息不等同于再次重置承诺；概率为主观且未校准，证据不足时保留未知。"
     ]
   }
