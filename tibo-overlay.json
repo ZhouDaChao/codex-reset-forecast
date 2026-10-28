@@ -2,27 +2,28 @@
   "schemaVersion": 1,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-28T05:43:58.000Z",
-  "expiresAt": "2026-10-28T07:00:00.000Z",
+  "checkedAt": "2026-10-28T08:20:51.000Z",
+  "expiresAt": "2026-10-28T11:04:57.415Z",
   "event": {
     "id": "x:2115273064481218829",
-    "status": "future_commitment",
+    "status": "execution_claim",
     "urls": [
-      "https://x.com/thsottiaux/status/2115273064481218829",
-      "https://x.com/thsottiaux/status/2115273253711409208"
+      "https://x.com/thsottiaux/status/2115330127886463244",
+      "https://x.com/thsottiaux/status/2115273253711409208",
+      "https://x.com/thsottiaux/status/2115273064481218829"
     ],
-    "publishedAt": "2026-10-28T02:42:53.000Z",
+    "publishedAt": "2026-10-28T06:29:38.000Z",
     "actualExecutionAt": null,
     "resetType": "unknown",
     "scope": "unknown"
   },
   "baseline": {
     "source": "https://www.willcodexquotareset.com/api/forecast",
-    "sourceFetchedAt": "2026-10-28T05:31:41.556Z",
+    "sourceFetchedAt": "2026-10-28T08:04:57.415Z",
     "modelVersion": "evidence-v2",
     "state": "forecast",
     "horizonHours": 48,
-    "score": 16,
+    "score": 12,
     "calibrated": false,
     "resetAnnounced": false,
     "latestResetAt": "2026-08-31T02:34:27.000Z",
@@ -31,24 +32,20 @@
       {
         "label": "baseline",
         "points": 12
-      },
-      {
-        "label": "product-release hint",
-        "points": 4
       }
     ],
-    "tiboPostsEmpty": false
+    "tiboPostsEmpty": true
   },
   "correction": {
     "applied": false,
     "referencePercent": null,
-    "reason": "Day23明确预告重置并称Lands by midnight PST，尚未见执行；站方收录承诺但16分且resetAnnounced=false，分类不匹配，数值修正待定",
+    "reason": "Tibo已引用Day23承诺宣布完成；站方Tibo抓取404仅余12分基线，遗漏完成声明。类型适配及其他因素是否仍适用未核，不满足冷却修正前提，数值待定",
     "assumptions": [
-      "Day23回复称midnight PST，时区用法未澄清；补充保守于07:00Z到期，不将其认作执行时间",
-      "网站16%为未校准48小时多因素估计；已收录承诺但分类不匹配，不自行加减分",
-      "实际执行时间、类型及账户范围未知，不代表个人到账；48小时仅评估窗，无执行时间代理"
+      "完成声明发表于10月28日06:29:38Z；实际执行时间未知，未采用公告时间代理计算",
+      "网站12%为未校准48小时估计；源抓取失败不能证明其他因素不存在，未套用冷却公式",
+      "直接刷新或发卡及适用范围未知，不代表个人到账；本次完成不是下一次重置承诺"
     ],
-    "windowStart": "2026-10-28T05:43:58.000Z",
-    "windowEnd": "2026-10-30T05:43:58.000Z"
+    "windowStart": "2026-10-28T08:20:51.000Z",
+    "windowEnd": "2026-10-30T08:20:51.000Z"
   }
 }
