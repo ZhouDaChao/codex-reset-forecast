@@ -2,26 +2,27 @@
   "schemaVersion": 1,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-28T02:33:03.000Z",
-  "expiresAt": "2026-10-28T05:28:16.832Z",
+  "checkedAt": "2026-10-28T04:19:32.000Z",
+  "expiresAt": "2026-10-28T07:00:23.406Z",
   "event": {
-    "id": "x:2114588174249071102",
+    "id": "x:2115273064481218829",
     "status": "future_commitment",
     "urls": [
-      "https://x.com/thsottiaux/status/2114588174249071102"
+      "https://x.com/thsottiaux/status/2115273064481218829",
+      "https://x.com/thsottiaux/status/2115273253711409208"
     ],
-    "publishedAt": "2026-10-26T05:21:22.000Z",
+    "publishedAt": "2026-10-28T02:42:53.000Z",
     "actualExecutionAt": null,
     "resetType": "unknown",
     "scope": "unknown"
   },
   "baseline": {
     "source": "https://www.willcodexquotareset.com/api/forecast",
-    "sourceFetchedAt": "2026-10-28T02:28:16.832Z",
+    "sourceFetchedAt": "2026-10-28T04:00:23.406Z",
     "modelVersion": "evidence-v2",
     "state": "forecast",
     "horizonHours": 48,
-    "score": 17,
+    "score": 20,
     "calibrated": false,
     "resetAnnounced": false,
     "latestResetAt": "2026-08-31T02:34:27.000Z",
@@ -33,7 +34,11 @@
       },
       {
         "label": "product-release hint",
-        "points": 5
+        "points": 4
+      },
+      {
+        "label": "other incidents",
+        "points": 4
       }
     ],
     "tiboPostsEmpty": false
@@ -41,13 +46,13 @@
   "correction": {
     "applied": false,
     "referencePercent": null,
-    "reason": "Day21执行仍未核实且不续期；站方17分含Terra发布因素，Tibo第二页报404但列表非空，不能用冷却项覆盖总分",
+    "reason": "新Day23主帖明确预告重置，同线程称Lands by midnight PST；站方已收录原文但仍为20分且resetAnnounced=false，分类不匹配，修正待定，不自行加减分",
     "assumptions": [
-      "Day21声明发表于10月26日05:21:22Z；原称今天，未见执行确认，不续作新的承诺",
-      "站方17%为未校准48小时多因素估计；不自行加减分，发布或用量提升不等于重置",
-      "类型及账户范围未知，不代表个人到账；本窗口仅评估窗，不是执行时间或代理"
+      "Day23发表于10月28日02:42:53Z，回复称midnight PST；保留原时区表述，未见执行确认",
+      "网站20%为未校准48小时多因素估计；已收录承诺但分类不匹配，无获准量化规则，不作修正",
+      "实际执行时间、类型及账户范围未知；不代表个人到账，评估窗不是承诺截止或执行代理"
     ],
-    "windowStart": "2026-10-28T02:33:03.000Z",
-    "windowEnd": "2026-10-30T02:33:03.000Z"
+    "windowStart": "2026-10-28T04:19:32.000Z",
+    "windowEnd": "2026-10-30T04:19:32.000Z"
   }
 }
