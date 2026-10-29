@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-29T01:23:58Z",
-  "expiresAt": "2026-10-29T04:23:58Z",
+  "checkedAt": "2026-10-29T01:58:04Z",
+  "expiresAt": "2026-10-29T04:58:04Z",
   "event": {
     "id": "x:2115273064481218829",
     "status": "execution_claim",
@@ -18,15 +18,15 @@
     "scope": "适用范围未明确"
   },
   "forecast": {
-    "windowStart": "2026-10-29T01:23:58Z",
-    "windowEnd": "2026-10-31T01:23:58Z",
+    "windowStart": "2026-10-29T01:58:04Z",
+    "windowEnd": "2026-10-31T01:58:04Z",
     "probabilityPercent": null,
     "calibrated": false,
     "reason": "Tibo 已引用此前重置承诺宣布完成，但没有提供下一次48小时内重置的明确新承诺，证据不足以可靠量化概率。",
     "limitations": [
       "实际执行时间、重置类型和适用范围未知，完成声明不证明个人额度已到账。",
-      "已核Posts2115588390414581916及Replies2115473280677363810；Chat/Work整合尚未推出的澄清并非重置承诺或取消。",
-      "明日好消息不等同于再次重置承诺；概率为主观且未校准，证据不足时保留未知。"
+      "已核Posts2115622002581188681及Replies2115473280677363810；Day24发布短信功能，并非额度重置承诺。",
+      "产品发布与模糊好消息不足以预测下一次重置；概率为主观且未校准，证据不足时保留未知。"
     ]
   }
 }
