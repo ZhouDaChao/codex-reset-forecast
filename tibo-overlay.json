@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-30T19:07:49Z",
-  "expiresAt": "2026-10-30T22:07:49Z",
+  "checkedAt": "2026-10-30T20:07:07Z",
+  "expiresAt": "2026-10-30T23:07:07Z",
   "event": {
     "id": "x:2115273064481218829",
     "status": "execution_claim",
@@ -18,15 +18,15 @@
     "scope": "适用范围未明确"
   },
   "forecast": {
-    "windowStart": "2026-10-30T19:07:49Z",
-    "windowEnd": "2026-11-01T19:07:49Z",
+    "windowStart": "2026-10-30T20:07:07Z",
+    "windowEnd": "2026-11-01T20:07:07Z",
     "probabilityPercent": null,
     "calibrated": false,
-    "reason": "本轮增量核验 Posts 与 Replies 均无新增；现有产品交付讨论和 Day25 用量政策调整不构成新重置承诺。未来48小时重置概率缺乏可靠量化依据。",
+    "reason": "新增回复“Better announce 28 days of reset”针对 @claudeai 的公告，是竞争产品评论，并非 OpenAI/Codex 未来重置承诺或执行声明。未来48小时重置概率仍缺乏可靠量化依据。",
     "limitations": [
       "Day23实际执行时间、重置类型及范围未知，历史完成声明不证明个人到账。",
-      "已核Posts2115890336107233347及Replies2116072117540417651；产品交付评论不构成重置时间承诺。",
-      "Day25公告所称今日生效未明确时区；用量提升不等于重置，概率主观未校准，null不代表0%。"
+      "已核 Posts 2115890336107233347、Replies 2116256600436641887；新回复不能转义为本人重置承诺。",
+      "用量政策调整不等于重置；概率主观未校准，null 不代表 0%。"
     ]
   }
 }
