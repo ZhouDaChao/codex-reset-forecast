@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-30T06:15:18Z",
-  "expiresAt": "2026-10-30T09:15:18Z",
+  "checkedAt": "2026-10-30T07:05:40Z",
+  "expiresAt": "2026-10-30T10:05:40Z",
   "event": {
     "id": "x:2115273064481218829",
     "status": "execution_claim",
@@ -18,11 +18,11 @@
     "scope": "适用范围未明确"
   },
   "forecast": {
-    "windowStart": "2026-10-30T06:15:18Z",
-    "windowEnd": "2026-11-01T06:15:18Z",
+    "windowStart": "2026-10-30T07:05:40Z",
+    "windowEnd": "2026-11-01T07:05:40Z",
     "probabilityPercent": null,
     "calibrated": false,
-    "reason": "新增回复涉及Pro200用量政策、产品改进建议和社交问候，未明确承诺或宣布新的重置。Day25用量政策调整不等于重置；未来48小时重置概率缺乏可靠量化依据。",
+    "reason": "最近回复涉及Pro200用量政策、产品改进建议和社交问候，未明确承诺或宣布新的重置。Day25用量政策调整不等于重置；未来48小时重置概率缺乏可靠量化依据。",
     "limitations": [
       "Day23实际执行时间、重置类型及范围未知，历史完成声明不证明个人到账。",
       "已核Posts2115890336107233347及Replies2116046569963421719；对产品建议的赞同不构成重置时间承诺。",
