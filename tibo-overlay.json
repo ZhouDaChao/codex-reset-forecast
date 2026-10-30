@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-30T20:07:07Z",
-  "expiresAt": "2026-10-30T23:07:07Z",
+  "checkedAt": "2026-10-30T21:21:22Z",
+  "expiresAt": "2026-10-31T00:21:22Z",
   "event": {
     "id": "x:2115273064481218829",
     "status": "execution_claim",
@@ -18,11 +18,11 @@
     "scope": "适用范围未明确"
   },
   "forecast": {
-    "windowStart": "2026-10-30T20:07:07Z",
-    "windowEnd": "2026-11-01T20:07:07Z",
+    "windowStart": "2026-10-30T21:21:22Z",
+    "windowEnd": "2026-11-01T21:21:22Z",
     "probabilityPercent": null,
     "calibrated": false,
-    "reason": "新增回复“Better announce 28 days of reset”针对 @claudeai 的公告，是竞争产品评论，并非 OpenAI/Codex 未来重置承诺或执行声明。未来48小时重置概率仍缺乏可靠量化依据。",
+    "reason": "本轮 Posts 与 Replies 无新增。最新回复“Better announce 28 days of reset”针对 @claudeai，并非 OpenAI/Codex 未来重置承诺或执行声明；未来48小时概率仍缺乏可靠量化依据。",
     "limitations": [
       "Day23实际执行时间、重置类型及范围未知，历史完成声明不证明个人到账。",
       "已核 Posts 2115890336107233347、Replies 2116256600436641887；新回复不能转义为本人重置承诺。",
