@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-30T13:10:21Z",
-  "expiresAt": "2026-10-30T16:10:21Z",
+  "checkedAt": "2026-10-30T14:32:10Z",
+  "expiresAt": "2026-10-30T17:32:10Z",
   "event": {
     "id": "x:2115273064481218829",
     "status": "execution_claim",
@@ -18,8 +18,8 @@
     "scope": "适用范围未明确"
   },
   "forecast": {
-    "windowStart": "2026-10-30T13:10:21Z",
-    "windowEnd": "2026-11-01T13:10:21Z",
+    "windowStart": "2026-10-30T14:32:10Z",
+    "windowEnd": "2026-11-01T14:32:10Z",
     "probabilityPercent": null,
     "calibrated": false,
     "reason": "本轮增量核验 Posts 与 Replies 均无新增；现有产品交付讨论和 Day25 用量政策调整不构成新重置承诺。未来48小时重置概率缺乏可靠量化依据。",
