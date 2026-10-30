@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-30T01:07:43Z",
-  "expiresAt": "2026-10-30T04:07:43Z",
+  "checkedAt": "2026-10-30T01:50:24Z",
+  "expiresAt": "2026-10-30T04:50:24Z",
   "event": {
     "id": "x:2115273064481218829",
     "status": "execution_claim",
@@ -18,14 +18,14 @@
     "scope": "适用范围未明确"
   },
   "forecast": {
-    "windowStart": "2026-10-30T01:07:43Z",
-    "windowEnd": "2026-11-01T01:07:43Z",
+    "windowStart": "2026-10-30T01:50:24Z",
+    "windowEnd": "2026-11-01T01:50:24Z",
     "probabilityPercent": null,
     "calibrated": false,
     "reason": "Day25官方宣布用量政策调整，并明确Pro200不再削减、Work/Codex用量维持不变；这不是新重置承诺。未来48小时重置概率仍缺乏可靠量化依据。",
     "limitations": [
       "Day23实际执行时间、重置类型及范围未知，历史完成声明不证明个人到账。",
-      "已核Posts2115890336107233347及Replies2115851811576053881；新帖引导应用反馈，未宣布重置。",
+      "已核Posts2115890336107233347及Replies2115974268936712436；新回复为合并/拆分玩笑，未宣布重置。",
       "公告称今日生效，未明确时区和个人到账；用量提升不等于重置，概率主观未校准，null不代表0%。"
     ]
   }
