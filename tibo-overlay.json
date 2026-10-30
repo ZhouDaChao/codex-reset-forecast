@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-30T12:01:06Z",
-  "expiresAt": "2026-10-30T15:01:06Z",
+  "checkedAt": "2026-10-30T13:10:21Z",
+  "expiresAt": "2026-10-30T16:10:21Z",
   "event": {
     "id": "x:2115273064481218829",
     "status": "execution_claim",
@@ -18,11 +18,11 @@
     "scope": "适用范围未明确"
   },
   "forecast": {
-    "windowStart": "2026-10-30T12:01:06Z",
-    "windowEnd": "2026-11-01T12:01:06Z",
+    "windowStart": "2026-10-30T13:10:21Z",
+    "windowEnd": "2026-11-01T13:10:21Z",
     "probabilityPercent": null,
     "calibrated": false,
-    "reason": "最新回复“No hype, just shipping”针对侧边聊天保留功能的产品讨论，并非重置承诺。Day25用量政策调整不等于重置；未来48小时重置概率仍缺乏可靠量化依据。",
+    "reason": "本轮增量核验 Posts 与 Replies 均无新增；现有产品交付讨论和 Day25 用量政策调整不构成新重置承诺。未来48小时重置概率缺乏可靠量化依据。",
     "limitations": [
       "Day23实际执行时间、重置类型及范围未知，历史完成声明不证明个人到账。",
       "已核Posts2115890336107233347及Replies2116072117540417651；产品交付评论不构成重置时间承诺。",
