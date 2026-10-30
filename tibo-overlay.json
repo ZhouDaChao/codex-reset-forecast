@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-30T05:06:34Z",
-  "expiresAt": "2026-10-30T08:06:34Z",
+  "checkedAt": "2026-10-30T06:15:18Z",
+  "expiresAt": "2026-10-30T09:15:18Z",
   "event": {
     "id": "x:2115273064481218829",
     "status": "execution_claim",
@@ -18,14 +18,14 @@
     "scope": "适用范围未明确"
   },
   "forecast": {
-    "windowStart": "2026-10-30T05:06:34Z",
-    "windowEnd": "2026-11-01T05:06:34Z",
+    "windowStart": "2026-10-30T06:15:18Z",
+    "windowEnd": "2026-11-01T06:15:18Z",
     "probabilityPercent": null,
     "calibrated": false,
-    "reason": "Day25官方宣布用量政策调整，并明确Pro200不再削减、Work/Codex用量维持不变；这不是新重置承诺。未来48小时重置概率仍缺乏可靠量化依据。",
+    "reason": "新增回复涉及Pro200用量政策、产品改进建议和社交问候，未明确承诺或宣布新的重置。Day25用量政策调整不等于重置；未来48小时重置概率缺乏可靠量化依据。",
     "limitations": [
       "Day23实际执行时间、重置类型及范围未知，历史完成声明不证明个人到账。",
-      "已核Posts2115890336107233347及Replies2115974268936712436，无新增条目或重置承诺。",
+      "已核Posts2115890336107233347及Replies2116046569963421719；对产品建议的赞同不构成重置时间承诺。",
       "Day25公告所称今日生效未明确时区；用量提升不等于重置，概率主观未校准，null不代表0%。"
     ]
   }
