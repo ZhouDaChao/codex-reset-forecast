@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-30T02:51:16Z",
-  "expiresAt": "2026-10-30T05:51:16Z",
+  "checkedAt": "2026-10-30T04:10:49Z",
+  "expiresAt": "2026-10-30T07:10:49Z",
   "event": {
     "id": "x:2115273064481218829",
     "status": "execution_claim",
@@ -18,8 +18,8 @@
     "scope": "适用范围未明确"
   },
   "forecast": {
-    "windowStart": "2026-10-30T02:51:16Z",
-    "windowEnd": "2026-11-01T02:51:16Z",
+    "windowStart": "2026-10-30T04:10:49Z",
+    "windowEnd": "2026-11-01T04:10:49Z",
     "probabilityPercent": null,
     "calibrated": false,
     "reason": "Day25官方宣布用量政策调整，并明确Pro200不再削减、Work/Codex用量维持不变；这不是新重置承诺。未来48小时重置概率仍缺乏可靠量化依据。",
