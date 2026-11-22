@@ -2,31 +2,26 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-10-30T22:53:56Z",
-  "expiresAt": "2026-10-31T01:53:56Z",
+  "checkedAt": "2026-11-22T18:06:54Z",
+  "expiresAt": "2026-11-22T21:06:54Z",
   "event": {
-    "id": "x:2115273064481218829",
-    "status": "execution_claim",
-    "urls": [
-      "https://x.com/thsottiaux/status/2115330127886463244",
-      "https://x.com/thsottiaux/status/2115273253711409208",
-      "https://x.com/thsottiaux/status/2115273064481218829"
-    ],
-    "publishedAt": "2026-10-28T06:29:38Z",
+    "id": null,
+    "status": "none",
+    "urls": [],
+    "publishedAt": null,
     "actualExecutionAt": null,
     "resetType": "unknown",
-    "scope": "适用范围未明确"
+    "scope": "未见当前适用的重置公告"
   },
   "forecast": {
-    "windowStart": "2026-10-30T22:53:56Z",
-    "windowEnd": "2026-11-01T22:53:56Z",
+    "windowStart": "2026-11-22T18:06:54Z",
+    "windowEnd": "2026-11-24T18:06:54Z",
     "probabilityPercent": null,
     "calibrated": false,
-    "reason": "本轮 Posts 与 Replies 无新增。最新回复“Better announce 28 days of reset”针对 @claudeai，并非 OpenAI/Codex 未来重置承诺或执行声明；未来48小时概率仍缺乏可靠量化依据。",
+    "reason": "本轮浏览了 Tibo 的最新公开帖子和回复，未见明确的 Codex 额度重置承诺或执行公告。近期桌面端更新不是重置证据，未来 48 小时无法可靠量化。",
     "limitations": [
-      "Day23实际执行时间、重置类型及范围未知，历史完成声明不证明个人到账。",
-      "已核 Posts 2115890336107233347、Replies 2116256600436641887；新回复不能转义为本人重置承诺。",
-      "用量政策调整不等于重置；概率主观未校准，null 不代表 0%。"
+      "公开时间线可能不完整；未见公告不代表不会重置。",
+      "未检查个人账户，也不能据此判断个人额度到账。"
     ]
   }
 }
