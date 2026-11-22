@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-11-22T18:06:54Z",
-  "expiresAt": "2026-11-22T21:06:54Z",
+  "checkedAt": "2026-11-22T18:53:24Z",
+  "expiresAt": "2026-11-22T21:53:24Z",
   "event": {
     "id": null,
     "status": "none",
@@ -14,11 +14,11 @@
     "scope": "未见当前适用的重置公告"
   },
   "forecast": {
-    "windowStart": "2026-11-22T18:06:54Z",
-    "windowEnd": "2026-11-24T18:06:54Z",
+    "windowStart": "2026-11-22T18:53:24Z",
+    "windowEnd": "2026-11-24T18:53:24Z",
     "probabilityPercent": null,
     "calibrated": false,
-    "reason": "本轮浏览了 Tibo 的最新公开帖子和回复，未见明确的 Codex 额度重置承诺或执行公告。近期桌面端更新不是重置证据，未来 48 小时无法可靠量化。",
+    "reason": "与上次核验相比，Tibo 的最新可见帖子及回复无新增，没有新的 Codex 额度重置承诺或执行公告；未来 48 小时无法可靠量化。",
     "limitations": [
       "公开时间线可能不完整；未见公告不代表不会重置。",
       "未检查个人账户，也不能据此判断个人额度到账。"
