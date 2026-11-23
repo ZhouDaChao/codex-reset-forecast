@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-11-23T16:43:21Z",
-  "expiresAt": "2026-11-23T19:43:21Z",
+  "checkedAt": "2026-11-23T18:07:49Z",
+  "expiresAt": "2026-11-23T21:07:49Z",
   "event": {
     "id": null,
     "status": "none",
@@ -14,11 +14,11 @@
     "scope": "未见当前适用的重置公告"
   },
   "forecast": {
-    "windowStart": "2026-11-23T16:43:21Z",
-    "windowEnd": "2026-11-25T16:43:21Z",
+    "windowStart": "2026-11-23T18:07:49Z",
+    "windowEnd": "2026-11-25T18:07:49Z",
     "probabilityPercent": null,
     "calibrated": false,
-    "reason": "与上次核验相比，Tibo 的最新可见帖子及回复无新增，没有新的 Codex 额度重置承诺或执行公告；未来 48 小时无法可靠量化。",
+    "reason": "Tibo 有新增动态，其中包含新建 ChatGPT Business 工作区用量活动，但不适用于个人 Pro 额度，不是 Codex 重置公告。未见新的个人额度重置承诺或执行公告，未来 48 小时无法可靠量化。",
     "limitations": [
       "公开时间线可能不完整；未见公告不代表不会重置。",
       "未检查个人账户，也不能据此判断个人额度到账。"
