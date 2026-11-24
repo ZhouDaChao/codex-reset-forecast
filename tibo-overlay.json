@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-11-24T04:24:11Z",
-  "expiresAt": "2026-11-24T07:24:11Z",
+  "checkedAt": "2026-11-24T05:08:52Z",
+  "expiresAt": "2026-11-24T08:08:52Z",
   "event": {
     "id": null,
     "status": "none",
@@ -14,8 +14,8 @@
     "scope": "未见当前适用的重置公告"
   },
   "forecast": {
-    "windowStart": "2026-11-24T04:24:11Z",
-    "windowEnd": "2026-11-26T04:24:11Z",
+    "windowStart": "2026-11-24T05:08:52Z",
+    "windowEnd": "2026-11-26T05:08:52Z",
     "probabilityPercent": null,
     "calibrated": false,
     "reason": "Tibo 有新增公开动态，但与个人额度无关。未见新的个人 Codex 或 Pro 额度重置承诺、执行或增发公告，未来 48 小时无法可靠量化。",
