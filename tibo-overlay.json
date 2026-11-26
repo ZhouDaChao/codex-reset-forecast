@@ -2,23 +2,25 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-11-26T06:44:45Z",
-  "expiresAt": "2026-11-26T09:44:45Z",
+  "checkedAt": "2026-11-26T08:20:05Z",
+  "expiresAt": "2026-11-26T11:20:05Z",
   "event": {
-    "id": null,
-    "status": "none",
-    "urls": [],
+    "id": "2125853628250599730",
+    "status": "execution_claim",
+    "urls": [
+      "https://x.com/thsottiaux/status/2125853628250599730"
+    ],
     "publishedAt": null,
     "actualExecutionAt": null,
     "resetType": "unknown",
-    "scope": "未见当前适用的重置公告"
+    "scope": "Tibo 称 Banked reset 已上线；未说明覆盖范围，不能确认个人 Pro/Codex 已重置。"
   },
   "forecast": {
-    "windowStart": "2026-11-26T06:44:45Z",
-    "windowEnd": "2026-11-28T06:44:45Z",
+    "windowStart": "2026-11-26T08:20:05Z",
+    "windowEnd": "2026-11-28T08:20:05Z",
     "probabilityPercent": null,
     "calibrated": false,
-    "reason": "Tibo 公开动态未见新的个人 Codex 或 Pro 额度重置承诺、执行或增发公告，未来 48 小时无法可靠量化。",
+    "reason": "Banked reset 上线不是个人额度已执行重置的证明，也未见新的个人 Pro/Codex 未来重置承诺，未来 48 小时无法可靠量化。",
     "limitations": [
       "公开时间线可能不完整；未见公告不代表不会重置。",
       "未检查个人账户，也不能据此判断个人额度到账。"
