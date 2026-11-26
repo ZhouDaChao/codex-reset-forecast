@@ -2,25 +2,26 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-11-26T08:20:05Z",
-  "expiresAt": "2026-11-26T11:20:05Z",
+  "checkedAt": "2026-11-26T09:16:23Z",
+  "expiresAt": "2026-11-26T12:16:23Z",
   "event": {
     "id": "2125853628250599730",
     "status": "execution_claim",
     "urls": [
+      "https://x.com/thsottiaux/status/2125784147889393806",
       "https://x.com/thsottiaux/status/2125853628250599730"
     ],
-    "publishedAt": null,
+    "publishedAt": "2026-11-26T07:26:16Z",
     "actualExecutionAt": null,
-    "resetType": "unknown",
-    "scope": "Tibo 称 Banked reset 已上线；未说明覆盖范围，不能确认个人 Pro/Codex 已重置。"
+    "resetType": "banked",
+    "scope": "Go、Plus、Pro、Business 各一次可留待使用的额度重置；Tibo 确认已上线，未核验个人到账，不是自动重置。"
   },
   "forecast": {
-    "windowStart": "2026-11-26T08:20:05Z",
-    "windowEnd": "2026-11-28T08:20:05Z",
+    "windowStart": "2026-11-26T09:16:23Z",
+    "windowEnd": "2026-11-28T09:16:23Z",
     "probabilityPercent": null,
     "calibrated": false,
-    "reason": "Banked reset 上线不是个人额度已执行重置的证明，也未见新的个人 Pro/Codex 未来重置承诺，未来 48 小时无法可靠量化。",
+    "reason": "已宣布上线的补偿重置包含 Pro；没有下一次个人 Pro/Codex 额外重置的承诺，未来 48 小时无法可靠量化。",
     "limitations": [
       "公开时间线可能不完整；未见公告不代表不会重置。",
       "未检查个人账户，也不能据此判断个人额度到账。"
