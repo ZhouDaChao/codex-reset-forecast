@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "publisher": "dot-public-tibo-review",
   "source": "https://x.com/thsottiaux",
-  "checkedAt": "2026-11-27T15:31:06Z",
-  "expiresAt": "2026-11-27T18:31:06Z",
+  "checkedAt": "2026-11-27T16:17:04Z",
+  "expiresAt": "2026-11-27T19:17:04Z",
   "event": {
     "id": "2125853628250599730",
     "status": "execution_claim",
@@ -17,8 +17,8 @@
     "scope": "Go、Plus、Pro、Business 各一次可留待使用的额度重置；Tibo 确认已上线，未核验个人到账，不是自动重置。"
   },
   "forecast": {
-    "windowStart": "2026-11-27T15:31:06Z",
-    "windowEnd": "2026-11-29T15:31:06Z",
+    "windowStart": "2026-11-27T16:17:04Z",
+    "windowEnd": "2026-11-29T16:17:04Z",
     "probabilityPercent": null,
     "calibrated": false,
     "reason": "已宣布上线的补偿重置包含 Pro；没有下一次个人 Pro/Codex 额外重置的承诺，未来 48 小时无法可靠量化。",
